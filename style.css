@@ -1,0 +1,124 @@
+body {
+  background-color: #092b40;
+}
+
+#tas {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#t1 {
+  color: #cc8500;
+  font-size: 3em;
+  cursor: pointer;
+  height: 0px;
+}
+
+.randart {
+  font-family: Palatino Linotype;
+  color: white;
+  font-size: 2em;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+#ftxt {
+  display: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#iks {
+  position: absolute;
+  top: 10px;
+  left: 83%;
+  font-size: 1.5em;
+  color: #cc8500;
+  font-weight: 100;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+
+input:focus {
+  color: white;
+  outline: none;
+}
+
+input[type="text"] {
+  padding-left: 3.5%;
+  border: none;
+  width: 80%;
+  height: 40px;
+  background-color: #092b40;
+  font-size: 1.3em;
+  border: 3px solid #cc8500;
+  border-radius: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  #iks {
+    left: 80%;
+  }
+
+  input[type="text"] {
+    padding-left: 5.5%;
+  }
+}
+
+.headings,
+.tekst {
+  font-family: Palatino Linotype;
+}
+
+.headings {
+  font-size: 2em;
+}
+
+.box {
+  background-color: silver;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.made-by {
+  font-family: Palatino Linotype;
+  color: #cc8500;
+  font-size: 1.5em;
+}
+
+.lnk {
+  font-family: Palatino Linotype;
+  color: white;
+  text-decoration: none;
+}
